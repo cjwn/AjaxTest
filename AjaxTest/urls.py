@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from AjaxTest.views import data, update
+from main.views import data, update
 
 urlpatterns = [
     url(r'^data/(?P<id>\d+)/$', data),
